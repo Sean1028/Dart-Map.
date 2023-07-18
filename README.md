@@ -12,7 +12,8 @@ void main(){
   //插入新元素
   positionMap["partTime"]="xiao-black";
   //print (positionMap["partTime"]);
-  
+
+  //可以用$去取值
   for(String key in positionMap.keys){
     print("positionMap的key是 $key 時，value為 ${positionMap[key]}");
   }
